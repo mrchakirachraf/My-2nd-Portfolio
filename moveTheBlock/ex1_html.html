@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move The Block</title>
+</head>
+<body>
+    <div style="position: absolute; top: 30%; right: 30%; width: 40%; background-color: rgb(255, 214, 127);">
+        <h3 style="text-align: center;">Animation</h3>
+        <p>
+            <center>
+                <h4><font style="color: red; font-size: larger;"><b>*</b></font> must choose the start <font style="color: red; font-size: larger;"><b>*</b></font></h4>
+                <button onclick="start_top()">start top</button><br>
+                <button onclick="start_bot()">start bot</button><br>
+                <button onclick="start_right()">start right</button><br>
+                <button onclick="start_left()">start left</button>
+            </center>
+        </p>
+        <p>
+            <center>
+                <h4>choose H/V/D</h4>
+                <button onclick="move_Horizontally()">move Horizontally</button>
+                <button onclick="move_Vertically()">move Vertically</button>
+                <button onclick="move_diagonally()">move diagonally</button>
+            </center>
+        </p>
+    </div>
+
+    <div id="param">
+        .
+    </div>
+    
+    <script src="ex1_JS.js"></script>
+</body>
+</html>
